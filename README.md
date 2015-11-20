@@ -84,3 +84,36 @@ To create a Salesforce application using the Cordova CLI:
  <preference name="StatusBarBackgroundColor" value="#ffffff" />
  <preference name="StatusBarStyle" value="default" />
  ```
+ 
+ ## Running in the Browser
+ 
+ To run the application in the browser using ForceServer:
+ 
+ 1. Install ForceServer
+ 
+    ```
+    $ npm install -g force-server
+    ```
+
+    or
+
+    ```
+    $ sudo npm install -g force-server
+    ```
+    
+    
+ 1. Navigate (cd) to your Ionic app's www directory
+ 
+ 1. Start the server
+ 
+    ```
+    force-server
+    ```
+ 
+    This command will start the server on port 8200, and automatically load your app (http://localhost:8200) in a browser window. You'll see the Salesforce login window (make sure you enable the popup), and the list of contacts will appear after you log in. If you don’t have a free Salesforce Developer Edition to log in to, you can create one here.
+ 
+    You can change the port number and the web root. Type the following command for more info:
+ 
+    ```
+    force-server --help
+    ```
