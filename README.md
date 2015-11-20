@@ -78,14 +78,15 @@ To create a Salesforce application using the Cordova CLI:
  
  To solve the iOS7+ status bar issue where the header of your application collides with the iOS status bar, make sure you installed the status bar plugin as described above, and add the following preferences to your project’s config.xml:
  
- ```
- <preference name="DisallowOverscroll" value="true"/>
- <preference name="StatusBarOverlaysWebView" value="false" />
- <preference name="StatusBarBackgroundColor" value="#ffffff" />
- <preference name="StatusBarStyle" value="default" />
- ```
+     ```
+     <preference name="DisallowOverscroll" value="true"/>
+     <preference name="StatusBarOverlaysWebView" value="false" />
+     <preference name="StatusBarBackgroundColor" value="#ffffff" />
+     <preference name="StatusBarStyle" value="default" />
+     ```
 
- 
+
+
  ## Running in the Browser
  
  To run the application in the browser using ForceServer:
