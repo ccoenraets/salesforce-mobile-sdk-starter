@@ -43,7 +43,7 @@ To create an application using the Cordova CLI:
     cordova plugin add https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin
     ```
 
-1. Create the Salesforce Mobile SDK config file (bootconfig.json) in the www folder of your project:
+1. Create the Salesforce Mobile SDK config file (bootconfig.json) in the ```www``` folder of your project:
     ```
     {
       "remoteAccessConsumerKey": "3MVG9Iu66FKeHhINkB1l7xt7kR8czFcCTUhgoA8Ol2Ltf1eYHOU4SqQRSEitYFDUpqRWcoQ2.dBv_a1Dyu5xa",
@@ -76,16 +76,17 @@ To create an application using the Cordova CLI:
 
 ### Step 4: Access Salesforce Data using ForceJS
  
- 1. Delete the firstapp/www folder in the generated project folder.
- 
- 1. Clone [this](https://github.com/ccoenraets/salesforce-mobile-sdk-starter) repository, or click [here](https://github.com/ccoenraets/salesforce-mobile-sdk-starter/archive/master.zip) to download the sample application zip file, and unzip the file anywhere on your file system.
- 
- 1. Copy the www folder from the GitHub project to the firstapp/www folder in your own project folder.
- 
- 1. Rebuild the project 
-    ```
-    cordova build ios
-    ```
+1. Delete the firstapp/www folder in the generated project folder.
+
+1. Clone [this](https://github.com/ccoenraets/salesforce-mobile-sdk-starter) repository, or click [here](https://github.com/ccoenraets/salesforce-mobile-sdk-starter/archive/master.zip) to download the sample application zip file, and unzip the file anywhere on your file system.
+
+1. Copy the www folder from the GitHub project to the firstapp/www folder in your own project folder.
+
+1. Rebuild the project 
+```
+cordova build ios
+```
+
 1. Run the project
  
 > This project uses ForceJS instead of the ForceTK library that ships with the Mobile SDK. One difference between these two libraries is that ForceJS doesn’t have a dependency on jQuery.
