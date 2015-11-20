@@ -85,6 +85,8 @@ To create a Salesforce application using the Cordova CLI:
  <preference name="StatusBarStyle" value="default" />
  ```
  
+ 
+ 
  ## Running in the Browser
  
  To run the application in the browser using ForceServer:
