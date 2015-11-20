@@ -84,8 +84,7 @@ To create a Salesforce application using the Cordova CLI:
  <preference name="StatusBarBackgroundColor" value="#ffffff" />
  <preference name="StatusBarStyle" value="default" />
  ```
- 
- 
+
  
  ## Running in the Browser
  
@@ -104,7 +103,7 @@ To create a Salesforce application using the Cordova CLI:
     ```
     
     
- 1. Navigate (cd) to your Ionic app's www directory
+ 1. Navigate (cd) to your app's www directory
  
  1. Start the server
  
