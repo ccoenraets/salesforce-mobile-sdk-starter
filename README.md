@@ -75,16 +75,16 @@ To create a Salesforce application using the Cordova CLI:
  1. Rebuild the project and run it
  
  
- > This project uses ForceJS instead of the ForceTK library that ships with the Mobile SDK. One difference between these two libraries is that ForceJS doesn’t have a dependency on jQuery.
+ This project uses ForceJS instead of the ForceTK library that ships with the Mobile SDK. One difference between these two libraries is that ForceJS doesn’t have a dependency on jQuery.
  
  To solve the iOS7+ status bar issue where the header of your application collides with the iOS status bar, make sure you installed the status bar plugin as described above, and add the following preferences to your project’s config.xml:
  
-     ```
-     <preference name="DisallowOverscroll" value="true"/>
-     <preference name="StatusBarOverlaysWebView" value="false" />
-     <preference name="StatusBarBackgroundColor" value="#ffffff" />
-     <preference name="StatusBarStyle" value="default" />
-     ```
+ ```
+ <preference name="DisallowOverscroll" value="true"/>
+ <preference name="StatusBarOverlaysWebView" value="false" />
+ <preference name="StatusBarBackgroundColor" value="#ffffff" />
+ <preference name="StatusBarStyle" value="default" />
+ ```
 
 
 
