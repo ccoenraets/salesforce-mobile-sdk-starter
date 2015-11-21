@@ -76,11 +76,11 @@ To create an application using the Cordova CLI:
 
 ### Step 4: Access Salesforce Data using ForceJS
  
-1. Delete the firstapp/www folder in the generated project folder.
+1. Delete the ```firstapp/www``` folder in the generated project folder.
 
 1. Clone [this](https://github.com/ccoenraets/salesforce-mobile-sdk-starter) repository, or click [here](https://github.com/ccoenraets/salesforce-mobile-sdk-starter/archive/master.zip) to download the sample application zip file, and unzip the file anywhere on your file system.
 
-1. Copy the www folder from the GitHub project to the firstapp/www folder in your own project folder.
+1. Copy the ```www``` folder from the GitHub project to the ```firstapp/www``` folder in your own project folder.
 
 1. Rebuild the project 
 ```
@@ -122,7 +122,7 @@ or
 sudo npm install -g force-server
 ```
 
-1. Navigate (cd) to your app's www directory
+1. Navigate (cd) to your app's ```www``` directory
 
 1. Start the server
 
