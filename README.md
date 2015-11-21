@@ -137,3 +137,11 @@ You can change the port number and the web root. Type the following command for 
 ```
 force-server --help
 ```
+
+### Resources
+
+- [Ionic Starter Kit for Salesforce](https://github.com/driftyco/ionic-starter-salesforce)
+- [Ionic2 and Salesforce Sample App](https://github.com/ccoenraets/ionic2-salesforce-sample)
+- [React and Salesforce Sample App](https://github.com/ccoenraets/salesforce-contacts-react)
+- [forcejs](https://github.com/ccoenraets/forcejs)
+- [force-server](https://github.com/ccoenraets/force-server)
